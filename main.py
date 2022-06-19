@@ -4,4 +4,7 @@ from GAN_core import GAN_core as who_is
 img = new_image('dino_random') # выгрузка случайной фотографии с динозавром
 species = who_is(img) # определение вида динозавра по фотографии
 
-print(species)
+if species == 'T-rex':
+    print('Selectel')
+else:
+    print(species)
