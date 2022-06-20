@@ -8,3 +8,5 @@ if species == 'T-rex':
     print('Selectel')
 else:
     print(species)
+
+print(dino_weight(img)) #вывод макисмальной возможной массы
